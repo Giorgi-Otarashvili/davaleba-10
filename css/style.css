@@ -1,0 +1,245 @@
+  @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+
+.conteiner {
+    width: min (100% 1440px);
+    margin: auto;
+    border: 5px solid red;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 32px;
+}
+
+ul {
+    display: flex;
+    column-gap: 24px;
+}
+
+.logo {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 24.653px;
+font-style: normal;
+font-weight: 900;
+line-height: 26.414px; /* 107.143% */
+letter-spacing: -0.44px;
+text-transform: uppercase;
+}
+
+.header_li_a {
+    color: #000;
+text-align: right;
+font-family: 'Inter', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.1px;
+}
+
+.action_box {
+    border-radius: 32px;
+background: var(--Black, #000);
+display: flex;
+padding: 12px 24px;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+width: 100px;
+}
+
+.header_action {
+    color: var(--Anti-Flash-White, #F3F3F3);
+text-align: center;
+font-family: 'Inter', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 150% */
+letter-spacing: 0.1px;
+width: 100px;
+}
+
+/* section1  */
+
+section {
+    display: flex;
+    padding: 64px ;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+    flex-wrap: wrap;
+    flex: 1 1 490px;
+    /* align-self: stretch; */
+}
+.section1_article1{
+    width: 490px;
+   
+}
+
+.section1_article_h1 {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 56px;
+font-style: normal;
+font-weight: 900;
+line-height: 60px; /* 107.143% */
+letter-spacing: -1px;
+}
+
+.section1_article_p{
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+    margin: 24px 0 40px
+}
+
+.border-radius12{
+    border-radius: 12px;
+}
+.section_article_img {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* section2  */
+
+
+
+.section2{
+    background: var(--Black, #000);
+}
+
+.section2_article1{
+    width: 500px;
+}
+.section2_article2{
+    width: 500px;
+}
+.section2_article_h1{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 900;
+line-height: 32px; /* 133.333% */
+letter-spacing: -0.1px;
+}
+
+.section2_article_p{
+    color: #FFF;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: 0.1px;
+margin-top: 16px;
+}
+
+/* section3 */
+
+.section3 {
+   
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.section3_articles {
+    width: calc(360 / 1403 * 100%);
+}
+.section3_titlebox {
+    display: flex;
+    align-items: center;
+}
+
+.circle_shadow{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+background-color: #000;
+margin-right: 16px;
+}
+
+.section3_h2 {
+    color: #000;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; /* 155.556% */
+}
+
+.section3_p {
+    color: #000;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: 0.1px;
+margin-top: 16px;
+}
+
+/* footer */
+
+footer{ 
+
+    background-color: #000;
+    padding: 96px 0;
+}
+
+.footer_box {
+     display: flex;
+    justify-content: space-between;
+    width: calc(1100 / 1440 * 100%);
+    margin: auto;
+    /* gap: 216px; */
+}
+
+.footer_midarticle {
+    display: flex;
+column-gap: 80px;}
+
+.white {color: #FFF;}
+
+.footer_h5 {
+    color: #FFF;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 150% */
+letter-spacing: 0.1px;
+margin-bottom: 16px;
+}
+.footer_midarticle_p{
+    color: #FFF;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+margin: 8px 0;
+}
+
+.footer_article3_P {
+    width: 214px;
+    color: #FFF;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+opacity: 0.4;
+}
