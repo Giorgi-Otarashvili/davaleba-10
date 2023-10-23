@@ -1,0 +1,49 @@
+@media (max-width: 744px) {
+    header {
+        padding: 24px;
+    }
+    /* section  */
+
+    section {
+        padding: 24px;
+        row-gap: 24px;
+    }
+
+    /* section3  */
+
+    .section3  {
+        flex-direction: column;
+     
+    }
+    .section3_articles {
+        width: 100%;
+     
+
+    }
+.section3_titlebox {
+
+    justify-content: center;
+}
+.section3_p {
+text-align: center;
+ }
+
+}
+
+@media (max-width:585px) {
+
+header { padding: 20px 24px;}
+    nav { display: none;}
+    .none_box {
+        display: none;
+    }
+    .burger_icon {display: block;}
+
+    /* footer  */
+
+    .footer_box {
+        padding: 32px 24px;
+       
+        align-items: center;
+    }
+}
